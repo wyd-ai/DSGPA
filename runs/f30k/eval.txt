@@ -1,0 +1,15 @@
+2024-10-28 03:25:00,821 Evaluating runs/f30k_test
+2024-10-28 03:25:01,182 Loading dataset.
+2024-10-28 03:25:13,429 Computing embeddings.
+2024-10-28 03:25:14,178 Test: [0/40]		Batch-Time 0.748 (0.748)	
+2024-10-28 03:25:18,020 Test: [10/40]		Batch-Time 0.523 (0.417)	
+2024-10-28 03:25:21,473 Test: [20/40]		Batch-Time 0.292 (0.383)	
+2024-10-28 03:25:25,094 Test: [30/40]		Batch-Time 1.004 (0.376)	
+2024-10-28 03:25:27,852 Images: 1000, Captions: 5000
+2024-10-28 03:25:27,852 Computing results.
+2024-10-28 03:25:27,889 Start evaluation.
+2024-10-28 03:25:28,084 Save the similarity into runs/f30k_test\results_f30k.npy
+2024-10-28 03:25:28,527 rsum: 578.1
+2024-10-28 03:25:28,527 Image to text (R@1, R@5, R@10, medr, meanr): 94.5 97.7 99.6 1.0 1.2
+2024-10-28 03:25:28,527 Text to image (R@1, R@5, R@10, medr, meanr): 88.8 98.1 99.3 1.0 1.5
+2024-10-28 03:25:28,556 Evaluation finish
