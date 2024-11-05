@@ -1,0 +1,80 @@
+data_path
+	data/
+dataset
+	coco
+margin
+	0.2
+num_epochs
+	10
+batch_size
+	256
+embed_size
+	1024
+grad_clip
+	2.0
+learning_rate
+	5e-07
+workers
+	0
+log_step
+	200
+val_step
+	500
+logger_name
+	runs/coco_test
+model_name
+	runs/coco_test
+max_violation
+	False
+img_dim
+	2048
+no_imgnorm
+	False
+no_txtnorm
+	False
+vse_mean_warmup_epochs
+	5
+multi_gpu
+	0
+size_augment
+	0
+mask_repeat
+	1
+save_results
+	1
+gpu_id
+	0
+visualize_freq
+	1
+num_visualize_samples
+	1000
+tsne_perplexity
+	30.0
+visualize_method
+	tsne
+gat_heads
+	8
+num_gat_layers
+	1
+cross_attn_heads
+	4
+min_lr
+	1e-07
+dropout
+	0.1
+loss_type
+	vse
+trans_heads
+	8
+trans_layers
+	1
+use_wandb
+	True
+wandb_project
+	coco
+wandb_entity
+	None
+wandb_name
+	None
+log_gradients
+	True
